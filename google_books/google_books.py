@@ -13,4 +13,4 @@ items = books["items"]
 coded = json.dumps(items)
 decoded = json.loads(coded)
 
-print(decoded[0]["volumeInfo"]["authors"])
+print(decoded[0]["volumeInfo"] ["imageLinks"]["thumbnail"])
