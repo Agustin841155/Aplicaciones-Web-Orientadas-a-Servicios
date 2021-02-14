@@ -3,11 +3,11 @@ import json
 import random
 
 urls = (
-    '/horoscopo/(.*)', 'Zodiaco',
+    '/horoscopo/(.*)', 'zodiaco',
 )
 app = web.application(urls, globals())
 
-class Zodiaco():
+class zodiaco():
   
   def GET(self,fechanac):
     try:
