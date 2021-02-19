@@ -1,0 +1,4 @@
+{"ano_de_nacimiento": 2001, "nombre": "agustin_espindola_mejia", "edad_actual": 20, "ano_actual": 2021}
+{"ano_de_nacimiento": 1978, "nombre": "reyna_mejia_ortega", "edad_actual": 43, "ano_actual": 2021}
+{"ano_de_nacimiento": 1975, "nombre": "pascasio_espindola_dominguez", "edad_actual": 46, "ano_actual": 2021}
+{"ano_de_nacimiento": 1999, "nombre": "alejandro_espindola_mejia", "edad_actual": 22, "ano_actual": 2021}
