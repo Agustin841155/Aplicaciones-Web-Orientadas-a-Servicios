@@ -15,7 +15,10 @@ class Agenda():
       elif action == "put":
         nombre = agenda.nombre
         fecha_nacimiento = agenda.fecha_nacimiento
-        return self.write(nombre, fecha_nacimiento)
+        result={}
+        result["resultado"]="registro almacenado"
+        show = json.dumps(result)
+        return show, self.write(nombre, fecha_nacimiento)
   def read(self):
         with open("datos.json") as file:
             self.json_file = json.load(file)
